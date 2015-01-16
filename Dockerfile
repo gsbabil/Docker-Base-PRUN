@@ -25,8 +25,6 @@ RUN rm /etc/nginx/sites-enabled/default
 # SSHD
 RUN apt-get -y install openssh-server
 RUN mkdir /var/run/sshd
-RUN echo 'root:J3mw?$_6' | chpasswd
-RUN sed -i 's/PermitRootLogin without-password/PermitRootLogin yes/' /etc/ssh/sshd_config
 
 # Supervisor
 RUN apt-get install -y supervisor
