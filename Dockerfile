@@ -1,7 +1,7 @@
 # Base server = Ubuntu + PostgreSQL + Nginx
 # OpenSSH + Chef-solo + Supervisor
 FROM ubuntu:14.04
-MAINTAINER Juan Lebrijo "juan@lebrijo.com"
+MAINTAINER Babil Golam Sarwar "gsbabil@gmail.com"
 
 # DEPENDENCIES
 RUN apt-get -y update
